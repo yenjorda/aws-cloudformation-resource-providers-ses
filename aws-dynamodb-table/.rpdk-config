@@ -1,0 +1,16 @@
+{
+    "typeName": "AWS::DynamoDB::Table",
+    "language": "java",
+    "runtime": "java8",
+    "entrypoint": "software.amazon.dynamodb.table.HandlerWrapper::handleRequest",
+    "testEntrypoint": "software.amazon.dynamodb.table.HandlerWrapper::testEntrypoint",
+    "settings": {
+        "namespace": [
+            "software",
+            "amazon",
+            "dynamodb",
+            "table"
+        ],
+        "codegen_template_path": "guided_aws"
+    }
+}
